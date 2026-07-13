@@ -11,6 +11,11 @@
         <valueSetDefinition>
             <sorted>true</sorted>
             <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
                 <fullName>Cancelled</fullName>
                 <default>false</default>
                 <label>Cancelled</label>
@@ -26,14 +31,19 @@
                 <label>Draft</label>
             </value>
             <value>
-                <fullName>Manager Approved</fullName>
+                <fullName>Pending Approval</fullName>
                 <default>false</default>
-                <label>Manager Approved</label>
+                <label>Pending Approval</label>
             </value>
             <value>
-                <fullName>Manager Rejected</fullName>
+                <fullName>Purchase Order Created</fullName>
                 <default>false</default>
-                <label>Manager Rejected</label>
+                <label>Purchase Order Created</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
             </value>
             <value>
                 <fullName>RFQ Created</fullName>
