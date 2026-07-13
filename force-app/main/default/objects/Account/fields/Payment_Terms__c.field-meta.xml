@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Terms__c</fullName>
+    <label>Payment Terms</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Net 30</fullName>
+                <default>true</default>
+                <label>Net 30</label>
+            </value>
+            <value>
+                <fullName>Advance</fullName>
+                <default>false</default>
+                <label>Advance</label>
+            </value>
+            <value>
+                <fullName>Immediate</fullName>
+                <default>false</default>
+                <label>Immediate</label>
+            </value>
+            <value>
+                <fullName>Net 15</fullName>
+                <default>false</default>
+                <label>Net 15</label>
+            </value>
+            <value>
+                <fullName>Net 45</fullName>
+                <default>false</default>
+                <label>Net 45</label>
+            </value>
+            <value>
+                <fullName>Net 60</fullName>
+                <default>false</default>
+                <label>Net 60</label>
+            </value>
+            <value>
+                <fullName>Net 90</fullName>
+                <default>false</default>
+                <label>Net 90</label>
+            </value>
+            <value>
+                <fullName>Against Delivery</fullName>
+                <default>false</default>
+                <label>Against Delivery</label>
+            </value>
+            <value>
+                <fullName>Against Invoice</fullName>
+                <default>false</default>
+                <label>Against Invoice</label>
+            </value>
+            <value>
+                <fullName>Letter of Credit (LC)</fullName>
+                <default>false</default>
+                <label>Letter of Credit (LC)</label>
+            </value>
+            <value>
+                <fullName>Milestone Based</fullName>
+                <default>false</default>
+                <label>Milestone Based</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
